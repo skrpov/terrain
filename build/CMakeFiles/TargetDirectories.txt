@@ -1,0 +1,14 @@
+/Users/sk/code/terrain/build/CMakeFiles/main.dir
+/Users/sk/code/terrain/build/CMakeFiles/edit_cache.dir
+/Users/sk/code/terrain/build/CMakeFiles/rebuild_cache.dir
+/Users/sk/code/terrain/build/deps/glfw/CMakeFiles/edit_cache.dir
+/Users/sk/code/terrain/build/deps/glfw/CMakeFiles/rebuild_cache.dir
+/Users/sk/code/terrain/build/deps/glfw/src/CMakeFiles/glfw.dir
+/Users/sk/code/terrain/build/deps/glfw/src/CMakeFiles/update_mappings.dir
+/Users/sk/code/terrain/build/deps/glfw/src/CMakeFiles/edit_cache.dir
+/Users/sk/code/terrain/build/deps/glfw/src/CMakeFiles/rebuild_cache.dir
+/Users/sk/code/terrain/build/deps/glm/CMakeFiles/edit_cache.dir
+/Users/sk/code/terrain/build/deps/glm/CMakeFiles/rebuild_cache.dir
+/Users/sk/code/terrain/build/deps/glm/glm/CMakeFiles/glm.dir
+/Users/sk/code/terrain/build/deps/glm/glm/CMakeFiles/edit_cache.dir
+/Users/sk/code/terrain/build/deps/glm/glm/CMakeFiles/rebuild_cache.dir
