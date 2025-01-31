@@ -4,11 +4,33 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 17)
 project(Terrain)
 
-add_subdirectory(./deps/glfw)
-add_subdirectory(./deps/glm)
+find_package(OpenGL REQUIRED)
 
-add_executable(main main.cpp)
+add_subdirectory(./vendor/glfw)
+add_subdirectory(./vendor/glm)
 
-target_compile_options(main PRIVATE -Wall -Wextra -march=native)
-target_include_directories(main PRIVATE ./deps/glfw/include/ ./deps/glm/ ./deps/bgfx/include/)
-target_link_libraries(main PRIVATE glfw glm "-framework OpenGL")
+add_executable(
+    app 
+    ./vendor/glad/src/glad.c
+    ./src/main.cpp)
+
+target_compile_options(
+    app 
+    PRIVATE 
+    -Wall 
+    -Wextra 
+    -march=native)
+
+target_include_directories(
+    app 
+    PRIVATE 
+    ./vendor/glad/include
+    ./vendor/glfw/include/ 
+    ./vendor/glm/)
+
+target_link_libraries(
+    app 
+    PRIVATE 
+    glfw 
+    glm 
+    OpenGL::GL)
